@@ -1,0 +1,70 @@
+.form{
+    margin-top: 40px;
+    max-width: 700px;
+    display: flex;
+}
+
+.form input{
+    flex: 1;    
+    height: 70px;
+    padding: 0 24px;
+    border-radius: 5px 0 0 5px ;
+    border: 2px solid #FFF;
+    color: #3A3A3A;
+    border-right: 0;
+}
+
+.repo{
+    margin-top: 80px;
+    max-width: 700px;
+}
+
+.repo a{
+    width: 100%;
+    background: #FFF;
+    border-radius: 5px;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+.repo img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+}
+
+.repo div{
+    flex: 1;
+    margin: 0 16px;
+}
+
+.repo strong{
+    font-size: 20px;
+    color: #3D3D4D;
+}
+
+.repo P{
+    color: #CBCBD6;
+}
+
+.repo a:hover{
+    transform: translateX(10px);
+}
+
+
+/* Botao dentro do componente classe form */
+.form button{
+    width: 310px;
+    height: 70px;
+    border-radius: 0 5px 5px 0 ;
+    border: none;
+    color: #FFF;
+    background-color: #04D361;
+    font-weight: bold;
+}
+
+.form button:hover{
+    background-color: #03A84D;
+}
